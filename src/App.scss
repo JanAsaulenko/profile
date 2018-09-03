@@ -1,0 +1,31 @@
+.wrapper {
+  position: relative;
+  box-sizing: border-box;
+  display: block;
+
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url("./images/react.png");
+  min-height: 100vh;
+}
+
+.user-form {
+  background: white;
+  opacity: 0.9;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.user-info {
+  padding-bottom: 10px;
+}
+
+.ui.button {
+  margin: 0;
+  width: 100%;
+}
