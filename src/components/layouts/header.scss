@@ -1,0 +1,24 @@
+.list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 50px;
+  background: rgb(32, 32, 32);
+  margin: 0;
+  align-items: center;
+  color: white;
+  padding-right: 40px;
+}
+
+.list-item {
+  transition: 0s;
+  list-style: none;
+}
+
+.list-item:hover {
+  h3 {
+    color: white;
+    transition: 0.3s;
+    opacity: 0.9;
+  }
+}
